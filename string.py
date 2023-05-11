@@ -31,3 +31,4 @@ print (F"I eat {total_veggies} veggies and {total_fruits} fruits daily")
 
 s='maine 200 banana khaye'
 print (s[0-6] + '10 samosa' + s[-6:])
+
