@@ -18,4 +18,40 @@ expenses = [2200, 2350, 2600, 2130, 2190]
 extra_money_in_Feb_to_Jan = expenses[1] - expenses [0]
 total_exspenses_in_first_quarter = expenses[0]+expenses[1]+expenses[3]
 third_question = 2000 in expenses
+add_june = expenses.append("1980")
+#correction_april =
+print(extra_money_in_Feb_to_Jan, total_exspenses_in_first_quarter, third_question, expenses)
 
+#You have a list of your favourite marvel super heros.
+
+#Using this find out,
+
+#1. Length of the list
+#2. Add 'black panther' at the end of this list
+#3. You realize that you need to add 'black panther' after 'hulk',
+ #  so remove it from the list first and then add it after 'hulk'
+#4. Now you don't like thor and hulk because they get angry easily :)
+ #  So you want to remove thor and hulk from list and replace them with doctor strange (because he is cool).
+ # Do that with one line of code.
+#5. Sort the heros list in alphabetical order (Hint. Use dir() functions to list down all functions available in list)
+
+heros=['spider man','thor','hulk','iron man','captain america']
+length = len(heros)
+print(length)
+# add black panter
+heros.append("black panther")
+print(heros)
+#delete black panter
+heros.__delitem__(5)
+print(heros)
+#add black panther after hulk
+heros.insert(3, "black panter")
+print(heros)
+#delete thor, hulk and add doctore strange
+heros.__delitem__(1)
+heros.__delitem__(1)
+heros.append("doctor strange")
+print(heros)
+# sort heros in alphabetical order
+heros.sort(key=str.lower)
+print(heros)
