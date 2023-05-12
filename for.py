@@ -2,35 +2,35 @@
 # result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
 # Using for loop figure out how many times you got heads
 
-# result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
-# heads="heads"
-# j=0
-# for i in result:
-#     if i==heads:
-#         j=j+1
-# print(j)
+result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
+heads="heads"
+j=0
+for i in result:
+    if i==heads:
+        j=j+1
+print(j)
 
 # 2. Print square of all numbers between 1 to 10 except even numbers
-# i=1
-# for i in range(1,11):
-#     if i%2==0:
-#         continue
-#     else:
-#         print(i*i)
+i=1
+for i in range(1,11):
+    if i%2==0:
+        continue
+    else:
+        print(i*i)
     
 # 3. Your monthly expense list (from Jan to May) looks like this,
 # expense_list = [2340, 2500, 2100, 3100, 2980]
 # Write a program that asks you to enter an expense amount and program should tell you in which month that expense occurred. 
 # If expense is not found then it should print that as well.
 
-# expense_list = [2340, 2500, 2100, 3100, 2980]
-# str=input("Enter expense amount: ")
-# str=int(str)
-# i=0
-# for i in range(len(expense_list)):
-#     if str!=expense_list[i]:
-#         continue
-#     elis: print("your month is", i+1 )
+expense_list = [2340, 2500, 2100, 3100, 2980]
+str=input("Enter expense amount: ")
+str=int(str)
+i=0
+for i in range(len(expense_list)):
+    if str!=expense_list[i]:
+        continue
+    elis: print("your month is", i+1 )
     
 # 4. Lets say you are running a 5 km race. Write a program that,
 
@@ -39,14 +39,14 @@
 # If you reply "no" then it should continue and ask "are you tired" on every km
 # If you finish all 5 km then it should print congratulations message
 
-# km=1
-# while km<=5:
-#     str=input("are you tired? ")
-#     if str=="yes":
-#         print("you didn't finish the race")
-#         break
-#     else: km=km+1
-# print("congratulations message")
+km=1
+while km<=5:
+    str=input("are you tired? ")
+    if str=="yes":
+        print("you didn't finish the race")
+        break
+    else: km=km+1
+print("congratulations message")
 
 # 5. Write a program that prints following shape
 # *
@@ -61,3 +61,4 @@ while i<=4:
     print(str)
     str=str+'*'
     i=i+1
+    
