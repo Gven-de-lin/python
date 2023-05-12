@@ -6,7 +6,6 @@ street = "ivanona"
 city = "Kharkiv"
 country = "Ukraine"
 print (country + ' ' + city + ' ' + street)
-print ()
 
 #Create a variable to store the string "Earth revolves around the sun"
 #Print "revolves" using slice operator
